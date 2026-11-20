@@ -1,35 +1,24 @@
-package com.ispc.servimatch;
+package com.smartbooking.app.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.smartbooking.app.R;
+import com.smartbooking.app.utils.SessionManager;
 
 public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
-        // Temporizador para cambiar de pantalla automáticamente
-        new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-
-                // Crear el Intent explícito hacia LoginActivity
-                Intent intent = new Intent(
-                        SplashActivity.this,
-                        LoginActivity.class
-                );
-
-                startActivity(intent);
-
-                // Cerrar SplashActivity para que el usuario
-                // no vuelva a ella con el botón Atrás
-                finish();
-            }
-
-        }, 2500); // Tiempo en milisegundos
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            Class<?> destino = SessionManager.haySesion(this) ? HomeActivity.class : LoginActivity.class;
+            startActivity(new Intent(this, destino));
+            finish();
+        }, 800);
     }
 }
