@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SmartBooking</string>
+    <string name="hello_world">Hello World!</string>
+
+    <string name="login_welcome">Bienvenido/a</string>
+    <string name="login_subtitle">Iniciá sesión para continuar</string>
+    <string name="login_submit">Ingresar</string>
+    <string name="login_go_register">¿No tenés una cuenta? Registrate</string>
+
+    <string name="register_title">Registrate</string>
+    <string name="register_submit">Registrarse</string>
+    <string name="register_go_login">¿Ya tenés una cuenta? Iniciá sesión</string>
+    <string name="register_success">Registro exitoso</string>
+
+    <string name="home_title">SmartBooking — inicio de sesión</string>
+    <string name="home_subtitle">Sesión iniciada correctamente</string>
+    <string name="home_card_title">Tu próximo paso</string>
+    <string name="home_card_body">Acá vas a gestionar reservas cuando conectemos el backend con el equipo.</string>
+
+    <string name="home_card_title_reservas">Próximas reservas</string>
+    <string name="home_card_body_reservas">Acá vas a ver tus turnos cuando conectemos el backend.</string>
+
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password_confirm">Confirmar contraseña</string>
+    <string name="hint_full_name">Nombre completo</string>
+
+    <string name="error_email_required">Ingresá tu correo electrónico</string>
+    <string name="error_email_invalid">Ingresá un correo electrónico válido</string>
+    <string name="error_password_required">Ingresá tu contraseña</string>
+    <string name="error_name_required">Ingresá tu nombre</string>
+    <string name="error_password_policy">Más de 8 caracteres, con letras, números y un carácter especial</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="error_register_email">El correo no es válido o ya está registrado</string>
+    <string name="error_register_generic">No se pudo completar el registro</string>
+    <string name="error_login_unauthorized">Correo o contraseña incorrectos</string>
+    <string name="error_login_generic">No se pudo iniciar sesión</string>
+    <string name="error_network">Error de conexión con el servidor</string>
+</resources>

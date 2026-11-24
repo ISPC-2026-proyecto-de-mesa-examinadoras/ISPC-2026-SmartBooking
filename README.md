@@ -1,8 +1,8 @@
-# 📅 SmartBooking Solutions - Gestión de reservas para espacios de coworking
+#  SmartBooking Solutions - Gestión de reservas para espacios de coworking
 
 ### ISPC-2026 - Programador de Aplicaciones para Móviles - Segundo Cuatrimestre 2026
 
-## 🧾 Descripción del Proyecto
+##  Descripción del Proyecto
 
 **SmartBooking Solutions** es una aplicación móvil desarrollada para facilitar la gestión de reservas de un espacio de coworking, permitiendo a los usuarios y administradores organizar y administrar las reservas desde dispositivos Android.
 
@@ -12,13 +12,13 @@ La aplicación se conecta con una API REST desarrollada con Django REST Framewor
 
 SmartBooking Solutions propone una plataforma sencilla, organizada y accesible, que permite a los usuarios administrar sus propias reservas y a los administradores gestionar los usuarios y las reservas del sistema.
 
-## 🎯 Objetivo del proyecto
+##  Objetivo del proyecto
 
 Desarrollar una aplicación móvil para Android que permita gestionar reservas de un espacio de coworking, ofreciendo funcionalidades de registro, autenticación, consulta, creación, modificación y cancelación de reservas, con diferentes permisos según el tipo de usuario.
 
-## 📱 Funcionalidades de la aplicación
+##  Funcionalidades de la aplicación
 
-### 🔐 Autenticación de usuarios
+###  Autenticación de usuarios
 
 - Registro de nuevos usuarios.
 - Inicio de sesión mediante correo electrónico y contraseña.
@@ -27,7 +27,7 @@ Desarrollar una aplicación móvil para Android que permita gestionar reservas d
 - Acceso a funcionalidades según los permisos correspondientes.
 - Cierre de sesión.
 
-### 👤 Usuario estándar
+###  Usuario estándar
 
 El usuario dispone de las siguientes funcionalidades:
 
@@ -39,7 +39,7 @@ El usuario dispone de las siguientes funcionalidades:
 - Modificar sus propias reservas.
 - Cancelar sus reservas.
 
-### 🛠️ Administrador
+###  Administrador
 
 El administrador dispone de funcionalidades de gestión del sistema.
 
@@ -56,7 +56,7 @@ El administrador dispone de funcionalidades de gestión del sistema.
 - Modificar reservas existentes.
 - Cancelar o eliminar reservas.
 
-### 📅 Gestión de reservas
+###  Gestión de reservas
 
 Las reservas permiten registrar:
 
@@ -73,7 +73,7 @@ Las reservas permiten registrar:
 - Los usuarios estándar solamente pueden consultar y modificar sus propias reservas.
 - Los administradores pueden gestionar las reservas de todos los usuarios.
 
-## 🚀 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - **Android Studio:** entorno de desarrollo de la aplicación móvil.
 - **Java:** lenguaje de programación para Android.
@@ -88,7 +88,7 @@ Las reservas permiten registrar:
 - **Newman:** ejecución automatizada de pruebas de API.
 - **Git y GitHub:** control de versiones y gestión del proyecto.
 
-## 🏗️ Arquitectura de la aplicación
+##  Arquitectura de la aplicación
 
 La aplicación móvil utiliza una arquitectura cliente-servidor, en la que Android se comunica con un backend mediante una API REST.
 
@@ -101,7 +101,7 @@ El funcionamiento general es el siguiente:
 5. La API devuelve las respuestas en formato JSON.
 6. La aplicación móvil procesa la información y muestra los resultados al usuario.
 
-## 🔒 Seguridad
+##  Seguridad
 
 La aplicación incorpora diferentes mecanismos de seguridad para proteger la información y controlar el acceso a las funcionalidades del sistema.
 
@@ -115,7 +115,7 @@ La aplicación incorpora diferentes mecanismos de seguridad para proteger la inf
 - **Almacenamiento seguro:** protección del token de autenticación en el dispositivo.
 - **Registros de seguridad:** registro de intentos fallidos de inicio de sesión, accesos denegados y modificaciones administrativas.
 
-## 🧪 Testing y control de calidad
+##  Testing y control de calidad
 
 El proyecto contempla pruebas para verificar el correcto funcionamiento de la aplicación y del backend.
 
@@ -128,7 +128,7 @@ El proyecto contempla pruebas para verificar el correcto funcionamiento de la ap
 - Registro y seguimiento de errores mediante GitHub Issues.
 - Matriz de trazabilidad entre pruebas e historias de usuario.
 
-## 📥 Instalación de la aplicación
+##  Instalación de la aplicación
 
 Para instalar SmartBooking Solutions en un dispositivo Android:
 
@@ -156,7 +156,7 @@ Para instalar SmartBooking Solutions en un dispositivo Android:
 
 [Pendiente de completar]
 
-## 📚 Documentación del proyecto
+##  Documentación del proyecto
 
 La documentación del proyecto se encontrará disponible en la Wiki de GitHub.
 
@@ -172,14 +172,19 @@ Se incluirán las siguientes secciones:
 
 **Link de la Wiki:** [Pendiente de completar]
 
-## 👥 Integrantes del equipo
+##  Integrantes del equipo
 
 | Integrante | Rol |
 |------------|------|
 | Kevin Cristofer Lorea Tannfeld | Scrum Master y Developer |
 | [Nombre del integrante] | [Rol] |
 
-## 🔗 Repositorio
+##  Repositorio
 
 **GitHub:** https://github.com/ISPC-2026-proyecto-de-mesa-examinadoras/ISPC-2026-SmartBooking
+
+## Plan de sprints (login y registro)
+
+- Resumen: [docs/SPRINTS.md](docs/SPRINTS.md)
+- Issues / Kanban: [docs/GITHUB_ISSUES.md](docs/GITHUB_ISSUES.md)
 
