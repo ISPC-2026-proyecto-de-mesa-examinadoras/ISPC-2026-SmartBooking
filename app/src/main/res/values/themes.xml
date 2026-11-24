@@ -9,6 +9,13 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
 
+    <style name="Theme.SmartBooking.Auth" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/purple_500</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
+        <item name="android:navigationBarColor">@color/purple_500</item>
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
     <style name="Theme.SmartBooking.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@color/purple_500</item>
         <item name="android:statusBarColor">@color/purple_500</item>
