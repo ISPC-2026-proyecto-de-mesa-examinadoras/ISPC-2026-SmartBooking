@@ -183,3 +183,8 @@ Se incluirán las siguientes secciones:
 
 **GitHub:** https://github.com/ISPC-2026-proyecto-de-mesa-examinadoras/ISPC-2026-SmartBooking
 
+## Plan de sprints (login y registro)
+
+- Resumen: [docs/SPRINTS.md](docs/SPRINTS.md)
+- Issues / Kanban: [docs/GITHUB_ISSUES.md](docs/GITHUB_ISSUES.md)
+
